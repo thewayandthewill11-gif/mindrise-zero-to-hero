@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>MindRise — Zero to Hero</title>
+  <meta name="description" content="Join MindRise on a 90-day journey to self-mastery. Explore daily tasks, meditation, and a supportive community to master your mind and life.">
+  <meta name="keywords" content="MindRise, self-growth, motivation, Buddhist psychology, mindfulness, meditation, 90-day plan, zero to hero, self-mastery">
+  <meta name="author" content="MindRise">
+  <link rel="canonical" href="https://mindrise.app/"> <!-- Replace with actual domain -->
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mindrise.app/"> <!-- Replace with actual domain -->
+  <meta property="og:title" content="MindRise — Zero to Hero">
+  <meta property="og:description" content="Join MindRise on a 90-day journey to self-mastery. Explore daily tasks, meditation, and a supportive community to master your mind and life.">
+  <meta property="og:image" content="https://picsum.photos/seed/social-banner/1200/630"> <!-- Replace with a real banner image -->
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://mindrise.app/"> <!-- Replace with actual domain -->
+  <meta property="twitter:title" content="MindRise — Zero to Hero">
+  <meta property="twitter:description" content="Join MindRise on a 90-day journey to self-mastery. Explore daily tasks, meditation, and a supportive community to master your mind and life.">
+  <meta property="twitter:image" content="https://picsum.photos/seed/social-banner/1200/630"> <!-- Replace with a real banner image -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer base {
+      html {
+        font-family: 'Poppins', sans-serif;
+      }
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'brand-blue': '#3b82f6', // Example: blue-500
+            'brand-gold': '#f59e0b', // Example: amber-500
+          },
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0"
+    }
+  }
+  </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white dark:bg-black">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
