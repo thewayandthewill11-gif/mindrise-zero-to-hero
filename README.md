@@ -1,20 +1,45 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <h1>🌙 MindRise — Zero to Hero</h1>
+  <p><em>A premium motivational and mindfulness platform built with AI and Buddhist psychology.</em></p>
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+### ✨ Overview
+MindRise helps users transform their mindset from **Zero to Hero** through guided motivation, Buddhist wisdom, and daily discipline.  
+It blends **AI-powered quotes**, **community chat**, and **meditation tools** for total self-growth.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1jGYvb-onqcDROz_OM6sr2BpB5wAlPcOF
+---
 
-## Run Locally
+### 🌗 Features
+- 🧘 Guided Meditation & Health Resources  
+- 🪶 Daily Tasks (90-day “Zero to Hero” Plan)  
+- 💬 Community Chat & Journaling Folders  
+- 🧠 Buddhist Psychology Insights  
+- 🎥 YouTube Links for Motivation & Calm  
+- 🎨 Dual Black & White Themes (Premium UI)  
+- 🤖 AI-Generated No-Copyright Images  
 
-**Prerequisites:**  Node.js
+---
 
+### 📁 Folders
+- **Journal** – write reflections & growth notes  
+- **Mindset** – guided lessons & quotes  
+- **Community** – chat & share thoughts  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+### ⚙️ Tech Stack
+HTML • CSS • JavaScript • AI image integration  
+No frameworks needed — just upload & run.
+
+---
+
+### 🪷 Credits
+All images are AI-generated & copyright-free.  
+Created with purpose and peace ✨
+
+---
+
+### 🌍 Live Preview (optional)
+_Coming soon..._
